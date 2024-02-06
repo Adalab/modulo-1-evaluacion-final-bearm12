@@ -1,0 +1,43 @@
+.shop {
+    padding: 34px 17px 28px 13px;
+
+    &__title1 {
+        font-family: $font-main;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: normal;
+        color: $primary-color;
+    }
+
+    &__title2 {
+        font-family: $font-title;
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 700;
+        color: $black;
+    }
+
+    &__text {
+        font-family: $font-main;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: normal;
+        color: $text-color;
+        margin-top: 10px;
+    }
+
+    &__button {
+        margin-top: 52px;
+
+        &-link {
+            padding: 8px 35px;
+            font-family: $font-main;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 45px;
+            border-radius: 30px;
+            border: 2px solid $primary-color;
+            color: $primary-color;
+        }
+    }
+}
