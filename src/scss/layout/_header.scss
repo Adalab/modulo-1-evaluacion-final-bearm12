@@ -1,0 +1,13 @@
+.header {
+    position: fixed;
+    &__nav {
+        background-color: $primary-color;
+        width: 36.4px;
+        height: 36.8px;
+
+        &-icon {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}
