@@ -67,3 +67,37 @@
         text-align: center;
     }
 }
+
+@media all and (min-width: $bp-tablet) {
+    .school {
+        padding: 27px 0 60px 0;
+
+        &__text {
+            font-size: 12px;
+            line-height: 30px;
+        }
+
+        &__title {
+            font-size: 28px;
+            line-height: 45px;
+        }
+
+        &__container {
+            width: 100%;
+            padding: 0 30px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            justify-content: space-around;
+        }
+
+        &__button {
+            margin-top: 17px;
+        }
+    }
+}
+
+@media all and (min-width: $bp-desktop) {
+    .school {
+        padding: 27px 174px 60px 174px;
+    }
+}

@@ -41,3 +41,39 @@
         }
     }
 }
+
+@media all and (min-width: $bp-tablet) {
+    .shop {
+        padding: 37.5px 39.1px 51.5px 37.1px;
+
+        &__title1 {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        &__title2 {
+            font-size: 32px;
+            line-height: 45px;
+        }
+
+        &__text {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        &__button {
+            margin-top: 21.2px;
+        }
+    }
+}
+
+@media all and (min-width: $bp-desktop) {
+    .shop {
+        padding: 39px 168px 49px 170px;
+    
+
+        &__button {
+            margin-top: 41px;
+        }
+    }
+}
