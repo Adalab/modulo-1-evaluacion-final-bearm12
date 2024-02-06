@@ -18,8 +18,7 @@
         color: $white;
         text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
         text-align: center;
-        padding: 0 40px;
-        width: 400px;
+        max-width: 400px;
     }
 
     &__text {
@@ -35,6 +34,7 @@
         background-color: $white;
         width: 38.2px;
         height: 38.2px;
+        padding-top: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
