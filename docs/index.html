@@ -3,67 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Evaluación final Módulo 1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
+    <link rel="stylesheet" href="./assets/index-3ecdec73.css">
   </head>
-
-  <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+  <header class="header">
+  <nav class="header__nav">
+    <a href="https://adalab.es" target="_blank"
+      ><img class="header__nav-icon" src="./images/ico-menu.svg" alt="menu hamburguesa"
+    /></a>
+  </nav>
 </header>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
+  <body>
+    <section class="hero" id="top_page">
+  <h1 class="hero__title">COMIENZOS COMPARTIDOS</h1>
+  <p class="hero__text">Todo lo que necesitan para volver al cole con ilusión.</p>
+  <a class="hero__button" href="#school">
+    <img class="hero__button-icon" src="./images/ico-scroll-down.svg" alt="Boton scroll down" />
+  </a>
+</section>
+
+    <section class="shop">
+  <p class="shop__title1">HISTORIAS, MODA Y ROPA DEPORTIVA</p>
+  <h2 class="shop__title2">TU TIENDA DE DEPORTE</h2>
+  <p class="shop__text">
+    El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las
+    últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal.
   </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+  <div class="shop__button">
+    <a class="shop__button-link" href="#">Comprar</a>
+  </div>
+</section>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+    <section class="school" id="school">
+  <p class="school__text">¡Prepáralos con tus marcas favoritas!</p>
+  <h3 class="school__title">VUELTA AL COLE</h3>
+  <div class="school__container">
+    <figure class="school__container-item">
+      <img class="item__img" src="./images/lpbts-mod05-img01-desk.png" alt="chica con mochila" />
+      <figcaption class="item__caption">Mochilas escolares</figcaption>
+    </figure>
+    <figure class="school__container-item">
+      <img class="item__img" src="./images/lpbts-mod05-img04-mob.png" alt="niño con esruche" />
+      <figcaption class="item__caption">Estuches</figcaption>
+    </figure>
+    <figure class="school__container-item">
+      <img class="item__img" src="./images/lpbts-mod05-img03-mob.png" alt="chica con bolsa de deporte" />
+      <figcaption class="item__caption">Bolsas de deporte</figcaption>
+    </figure>
+  </div>
+  <div class="school__button">
+    <a class="school__button-link" href="">Empezar ahora</a>
+  </div>
+</section>
 
-    </li>
-  </ul>
-</main>
-
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-  </small>
+  </body>
+  <footer class="footer">
+  <a class="button" href="#top_page">
+    <img class="button__arrow" src="./images/ico-arrow.svg" alt="flecha inicio" />
+  </a>
+  <nav class="footer__nav">
+    <section class="footer__nav-categories">
+      <ul class="footer__list">
+        <li><a href="https://adalab.es" target="_blank">ZAPATILLAS</a></li>
+        <li><a href="https://adalab.es" target="_blank">ROPA</a></li>
+        <li><a href="https://adalab.es" target="_blank">NIÑO/A</a></li>
+        <li><a href="https://adalab.es" target="_blank">DESTACADOS</a></li>
+        <li><a href="https://adalab.es" target="_blank">TIPS</a></li>
+      </ul>
+    </section>
+    <section class="footer__nav-socials">
+      <ul class="footer__list">
+        <li><a href="https://adalab.es" target="_blank">TWITTER</a></li>
+        <li><a href="https://adalab.es" target="_blank">INSTAGRAM</a></li>
+        <li><a href="https://adalab.es" target="_blank">YOUTUBE</a></li>
+      </ul>
+    </section>
+    <section class="footer__nav-copy">
+      <p>&copy; 2023</p>
+      <p>we <span class="heart">❤︎</span> run</p>
+    </section>
+  </nav>
 </footer>
 
-    </div>
-    <script src="./js/main.js"></script>
-  </body>
 </html>
