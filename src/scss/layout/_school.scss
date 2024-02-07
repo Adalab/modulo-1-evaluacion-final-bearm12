@@ -39,6 +39,15 @@
         background-color: $primary-color;
         border-radius: 25px;
         margin-top: 10px;
+        border: 2px solid $primary-color;
+        transition-duration: 1s;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+
+        &:hover {
+            background-color: $secondary-color;
+            transform: scaleX(1.4);
+        }
 
         &-link {
             font-family: $font-main;
@@ -46,7 +55,13 @@
             line-height: 45px;
             color: $white;
             padding: 8px 20px;
+            transition-duration: 500ms;
+            transition-property: all;
+            transition-timing-function: ease-in-out;
             
+            &:hover {
+                color: $primary-color;
+            }
         }
     }
 }

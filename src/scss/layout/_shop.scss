@@ -1,5 +1,5 @@
 .shop {
-    padding: 34px 17px 28px 13px;
+    padding: 34px 17px 28px 13px; 
 
     &__title1 {
         font-family: $font-main;
@@ -28,7 +28,11 @@
 
     &__button {
         margin-top: 52px;
-
+        width: 170px;
+        transition-duration: 500ms;
+        transition-property: transform;
+        transition-timing-function: ease-in-out;
+            
         &-link {
             padding: 8px 35px;
             font-family: $font-main;
@@ -38,8 +42,20 @@
             border-radius: 30px;
             border: 2px solid $primary-color;
             color: $primary-color;
+            background-color: $white;
+            transition-duration: 1s;
+            transition-property: background-color, transform;
+            transition-timing-function: ease-in-out;
+        }
+        &-link:hover {
+            background-color: $secondary-color;
         }
     }
+
+    &__button:hover {
+        transform: scale(1.1);
+    }
+   
 }
 
 @media all and (min-width: $bp-tablet) {
